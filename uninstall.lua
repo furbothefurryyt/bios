@@ -1,0 +1,7 @@
+local monitor = peripheral.find("monitor")
+monitor.clear()
+print("uninstalling BIOS...")
+shell.run("delete startup.lua")
+shell.run("delete fbios.lua")
+shell.run("delete uninstall.lua")
+os.shutdown()
