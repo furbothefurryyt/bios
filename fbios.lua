@@ -6,4 +6,4 @@ run("wget https://raw.githubusercontent.com/furbothefurryyt/bios/refs/heads/main
 print("obtained new 'startup.lua'!")
 sleep(1)
 
-os.reboot
+os.reboot()
