@@ -1,4 +1,5 @@
 shell.run("wget https://raw.githubusercontent.com/furbothefurryyt/bios/refs/heads/main/fbios.lua")
 shell.run("wget https://raw.githubusercontent.com/furbothefurryyt/bios/refs/heads/main/startup.lua")
+shell.run("wget https://raw.githubusercontent.com/furbothefurryyt/bios/refs/heads/main/uninstall.lua")
 shell.run("delete setup.lua")
 os.reboot(1)
