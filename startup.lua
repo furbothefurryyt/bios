@@ -1,3 +1,6 @@
+shell.run("delete fbios.lua")
+shell.run("wget https://raw.githubusercontent.com/furbothefurryyt/bios/refs/heads/main/fbios.lua")
+shell.run("set motd.enable false")
 local monitor = peripheral.find("monitor")
 local speaker = peripheral.find("speaker")
 local modem = peripheral.find("modem")
